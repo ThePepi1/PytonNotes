@@ -24,7 +24,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
 cap.set(4, hCam)
 detector =  ht.handDetectore()
-FirsstHand = []
+FirstHand = []
 SecondHand = []
 while True:
     ret, img = cap.read()
